@@ -1,0 +1,130 @@
+html {
+	background-color: #EEEAD3;
+}
+
+.header {
+  overflow: hidden;
+  padding: 40px ;
+  background-color: black;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  font-family: 'Rosarivo', serif;
+
+}
+
+/* Style the logo link (notic
+e that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 35px;
+  font-family: 'Rosarivo', serif;
+  
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.header a:hover{
+	color: #DACE83;
+
+}
+
+h1 {
+	margin: 50px auto;
+	text-align: center;
+	font-size: 40px;
+
+	max-width: 94%;
+	position: relative;
+}
+
+h1:before{
+	content: "";
+	display: block;
+	width: 34%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	left: 0;
+	/*margin-left: 2.9%;*/
+	/*margin-right: 30%;*/
+	top: 50%;
+	
+}
+
+h1:after{
+	content: "";
+	display: block;
+	width: 34%;
+	height: 2px;
+	background: #000;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	/*margin-right: 2.9%;*/
+	
+}
+
+
+u{
+	text-decoration: underline;
+	padding: 0.3em;
+	border-bottom: 1px solid;
+	color: #F7EFBD;
+}
+
+
+.header u {
+  float: left;
+  color: #F7EFBD;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 25px;
+  line-height: 20px;
+  font-family: 'Rosarivo', serif;
+
+}
+
+.header u:hover{
+	color: #DACE83;
+}
+
+h1 {
+	text-transform: uppercase;
+}
+
+.rounded{
+	width: 230px;
+	margin: auto;
+}
+
+.rounded img {
+	border-radius: 50%;
+}
+
+p{
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+	padding: 40px;
+}
+
+
+footer {
+  text-align: center;
+  line-height: 30px;
+  /*padding: 30px;*/
+  background-color: black;
+  color: white;
+  padding: 2%;
+}
